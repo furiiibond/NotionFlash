@@ -12,7 +12,7 @@ load_dotenv()
 
 # API Endpoints and variables
 # TODO figure out how to move to .env?
-SECRET = os.getenv("NOTION_SECRET")
+SECRET = os.getenv("secret_QteRFSgkNk3MAg8b0fNyyJZXnpAAnuzeEEkpkrLLMoa")
 baseNotionURL = "https://api.notion.com/v1/blocks/"  # Should be v1
 HEADER = {"Authorization": SECRET, "Notion-Version": "2021-05-13",
           "Content-Type": "application/json"}
